@@ -1,0 +1,23 @@
+{
+  "name": "WarPath",
+  "version": "2.0.0-alpha",
+  "description": "Warpath 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thotjs/warpath2.0.git"
+  },
+  "keywords": [
+    "Warpath"
+  ],
+  "author": "Joshwa Fugett <jfugett27@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/thotjs/warpath2.0/issues"
+  },
+  "homepage": "https://github.com/thotjs/warpath2.0"
+}
