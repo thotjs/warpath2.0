@@ -1,4 +1,8 @@
 warpath2.0
 ==========
 
-Warpath 2.0
+Installation
+===============
+Install Vagrant
+Install Virtual Box
+Install Node
