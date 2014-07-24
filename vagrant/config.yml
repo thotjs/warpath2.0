@@ -1,16 +1,36 @@
-admin:
-  servers: 2
-  hostname: admin
-  box: chef/fedora-20
-  boot_timeout: 300
-  halt_timeout: 120
-api:
-  servers: 2
-client:
-  servers : 1
-proxy:
-  servers: 2
-fulfillment:
-  servers: 1
-worker:
-  servers: 4
+servers:
+  web:
+    instances: 2
+    hostname: web
+    box: chef/fedora-20
+    boot_timeout: 300
+    halt_timeout: 120
+  mongo:
+    instances: 3
+    hostname: mongo
+    box: chef/fedora-20
+    boot_timeout: 300
+    halt_timeout: 120
+  redis:
+    instances: 2
+    hostname: redis
+    box: chef/fedora-20
+    boot_timeout: 300
+    halt_timeout: 120
+apps:
+  admin:
+    instances: 2
+  api:
+    instances: 2
+  client:
+    instances : 1
+  proxy:
+    instances: 2
+  fulfillment:
+    instances: 1
+  support:
+    instances: 1
+  queue:
+    instances: 2
+  workers:
+    instances: 4
